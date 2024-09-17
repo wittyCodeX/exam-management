@@ -1,7 +1,7 @@
 {
   "exams": [
     {
-      "id": 1,
+      "id": "1",
       "details": {
         "summary": "Basic Principles of architectural engineering",
         "student": {
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "details": {
         "summary": "Acid-base reduction",
         "student": {
@@ -55,7 +55,7 @@
       }
     },
     {
-      "id": 3,
+      "id": "3",
       "details": {
         "summary": "Military tactics during the 19th Century",
         "student": {
@@ -106,7 +106,7 @@
         "graded_url": "https://www.example.com/graded-2",
         "status": 1
       },
-      "id": 4
+      "id": "4"
     },
     {
       "details": {
@@ -133,7 +133,7 @@
         "graded_url": "https://www.example.com/graded-5",
         "status": 1
       },
-      "id": 5
+      "id": "5"
     },
     {
       "details": {
@@ -160,40 +160,42 @@
         "graded_url": "https://www.example.com/graded-5",
         "status": 1
       },
-      "id": 5
+      "id": "5"
     }
   ],
   "login": [
     {
-      "id": 1,
+      "id": "1",
       "username": "jackb",
       "role": "student",
       "status": 1,
       "passwordHash": "5f4dcc3b5aa765d61d8327deb882cf99"
     },
     {
-      "id": 3,
+      "id": "3",
       "username": "yairyoko",
       "role": "student",
       "passwordHash": "5f4dcc3b5aa765d61d8327deb882cf99",
       "status": 1
     },
     {
-      "id": 6,
+      "id": "6",
       "role": "student",
       "username": "nolvasergey",
       "passwordHash": "5f4dcc3b5aa765d61d8327deb882cf99",
       "status": 1
     },
     {
-      "id": 7,
+      "id": "7",
       "username": "karltheman",
       "role": "student",
-      "status": 1,
-      "passwordHash": "202cb962ac59075b964b07152d234b70"
+      "password": "123123123",
+      "retype_password": "123123123",
+      "passwordHash": "f5bb0c8de146c67b44babbf4e6584cc0",
+      "status": 2
     },
     {
-      "id": 2,
+      "id": "2",
       "role": "admin",
       "username": "admin",
       "passwordHash": "5f4dcc3b5aa765d61d8327deb882cf99",
