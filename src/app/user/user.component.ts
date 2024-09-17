@@ -63,6 +63,7 @@ export class UserComponent implements OnInit {
       .updateUser({
         ...this.passwordChangeForm.value,
         passwordHash: Md5.hashStr(password),
+        status: 2
       })
       .subscribe((data) => {
         this.toastr.success('your password is changed. please login again');

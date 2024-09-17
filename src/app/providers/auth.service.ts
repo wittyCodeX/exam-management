@@ -30,7 +30,7 @@ export class AuthService {
     localStorage.setItem('user', JSON.stringify(data));
     this.isAuthenticatedSubject.next(true);
 
-    // console.log(data);
+    console.log(data);
 
     let url = data.role == 'admin' ? '/dashboard' : '/user';
     // console.log(url);
@@ -45,8 +45,9 @@ export class AuthService {
   }
 
   updateUser(body) {
+    console.log('body: ', body)
     return this.http.put(
-      environment.api_url + '/login/update/' + body.id,
+      environment.api_url + '/login/' + body.id,
       body
     );
   }
